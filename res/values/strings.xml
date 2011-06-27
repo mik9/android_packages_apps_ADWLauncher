@@ -35,7 +35,7 @@
     <!-- Displayed when user selects a shortcut for an app that was uninstalled -->
     <string name="activity_not_found">Application is not installed on your phone.</string>
     <!-- List item for configuring the current wallpaper -->
-    <string name="configure_wallpaper">Configure...</string>
+    <string name="configure_wallpaper">Configure\u2026</string>
 
     <!-- Folders -->
     <skip />
@@ -74,7 +74,7 @@
     <string name="shortcut_installed">Shortcut \"<xliff:g id="name" example="Browser">%s</xliff:g>\" created.</string>
     <!-- Message displayed when a shortcut is uninstalled by an external application -->
     <string name="shortcut_uninstalled">Shortcut \"<xliff:g id="name" example="Browser">%s</xliff:g>\" was removed.</string>
-    <!-- Message displayed when an external application attemps to create a shortcut that already exists -->
+    <!-- Message displayed when an external application attempts to create a shortcut that already exists -->
     <string name="shortcut_duplicate">Shortcut \"<xliff:g id="name" example="Browser">%s</xliff:g>\" already exists.</string>
 
     <!-- Title of dialog when user is selecting shortcut to add to homescreen -->
@@ -121,7 +121,7 @@
     <string name="pref_label_settings">ADW Settings</string>
     <!-- Screen preferences -->
     <string name="pref_title_screen_preferences">Screen preferences</string>
-    <string name="pref_summary_screen_preferences">Default screen, layout...</string>
+    <string name="pref_summary_screen_preferences">Default screen, layout\u2026</string>
 
     <string name="pref_title_wallpaper_hack">Wallpaper Hack</string>
     <string name="pref_summary_wallpaper_hack">Disable this if you get FCs. Leaving it enabled improves the scrolling speed.</string>
@@ -130,17 +130,20 @@
     <string name="pref_summary_orientation_sensor">Select your desired orientation</string>
 
     <string name="pref_title_hide_statusbar">Hide StatusBar</string>
-    <string name="pref_summary_hide_statusbar">Hides your statusbar</string>
+    <string name="pref_summary_hide_statusbar">Hides the statusbar</string>
 
     <string name="pref_title_default_screen">Default Screen</string>
 
     <string name="pref_title_desktop_scrolling_speed">Desktop scrolling speed</string>
-    <string name="pref_summary_desktop_scrolling_speed">Set the speed used to fling desktops screens</string>
+    <string name="pref_summary_desktop_scrolling_speed">Set the speed used to fling desktop screens</string>
     <string name="pref_dialog_desktop_scrolling_speed">The lower the value, the faster you will fling</string>
 
     <string name="pref_title_desktop_overshoot">Desktop overshoot</string>
     <string name="pref_summary_desktop_overshoot">Allows bouncy scrolling desktop screens</string>
     <string name="pref_dialog_desktop_overshoot">Set it to 0 to disable overshooting</string>
+
+    <string name="pref_title_desktop_transition">Desktop Transition</string>
+    <string name="pref_summary_desktop_transition">How desktop screens change when changed</string>
 
     <!-- Drawer Settings -->
     <string name="pref_title_drawer_settings">Drawer Settings</string>
@@ -230,9 +233,9 @@
     <string name="pref_message_restart_froyo">Changing this setting will make the Launcher restart itself</string>
     <string name="drop_to_uninstall">Drop to Uninstall</string>
 
-    <string name="toast_widgets_not_supported">Widgets not supported... sorry :-)</string>
-    <string name="toast_unknown_item">Unknown item. We can\'t add unknown item types :-)</string>
-    <string name="toast_no_application_def">No application defined yet, drop something here! :)</string>
+    <string name="toast_widgets_not_supported">Widgets not supported\u2026 sorry!</string>
+    <string name="toast_unknown_item">Unknown item. We can\'t add unknown item types!</string>
+    <string name="toast_no_application_def">No application defined yet, drop something here!</string>
 
     <string name="pref_title_import_export">Backup and restore</string>
     <string name="pref_title_xml">ADW settings</string>
@@ -252,12 +255,12 @@
 
     <!-- XML Import/Export strings -->
     <string name="message_dialog_export">Backup ADW settings? Any existing file will be overwritten.</string>
-    <string name="xml_export_dialog">Backing up ADW settings...</string>
+    <string name="xml_export_dialog">Backing up ADW settings\u2026</string>
     <string name="xml_export_success">ADW settings backed up successfully!</string>
     <string name="xml_export_error">Error backing up ADW settings!</string>
 
     <string name="message_dialog_import">Restore ADW settings? ADW.Launcher will be restarted.</string>
-    <string name="xml_import_dialog">Restoring ADW settings...</string>
+    <string name="xml_import_dialog">Restoring ADW settings\u2026</string>
     <string name="xml_file_not_found">Settings backup file not found!</string>
     <string name="xml_not_readable">Settings backup file exists, but is not readable!</string>
     <string name="xml_import_success">ADW settings restored successfully!</string>
@@ -265,12 +268,12 @@
 
     <!-- Config Import/Export strings -->
     <string name="message_dialog_export_config">Backup desktop configuration? Any existing file will be overwritten.</string>
-    <string name="dbfile_export_dialog">Backing up desktop configuration...</string>
+    <string name="dbfile_export_dialog">Backing up desktop configuration\u2026</string>
     <string name="dbfile_export_success">Configuration backed up successfully!</string>
     <string name="dbfile_export_error">Error backing up configuration!</string>
 
     <string name="message_dialog_import_config">Restore desktop configuration? ADW.Launcher will be restarted.</string>
-    <string name="dbfile_import_dialog">Restoring desktop configuration...</string>
+    <string name="dbfile_import_dialog">Restoring desktop configuration\u2026</string>
     <string name="dbfile_not_found">Configuration file not found!</string>
     <string name="dbfile_not_readable">Configuration file exists, but is not readable!</string>
     <string name="dbfile_import_success">Configuration restored successfully!</string>
@@ -336,7 +339,7 @@
 	
     <string name="pref_title_wallpaper_scrolling">Wallpaper Scrolling</string>
     <string name="pref_summary_wallpaper_scrolling">Allow wallpaper to move while scrolling screens</string>
-    <string name="message_delete_desktop_screen">Remove this screen and all the content?</string>
+    <string name="message_delete_desktop_screen">Remove this screen and all of its content?</string>
     <string name="message_cannot_delete_desktop_screen">You can\'t delete the last screen</string>
     <string name="message_cannot_add_desktop_screen">You can\'t add more screens</string>
     <string name="message_cannot_swap_desktop_screen">You can\'t swap screens</string>
@@ -356,8 +359,8 @@
     <string name="shirtcuts_restore_original">Restore Original</string>
 
 	<string name="selectAll">Select all</string>
-	<string name="AppGroupAll">"ALL"</string>
-	<string name="AppGroupUn">"UNCATALOGED"</string>
+	<string name="AppGroupAll">"All"</string>
+	<string name="AppGroupUn">"Uncataloged"</string>
 	<string name="AppGroupAdd">"New Catalog"</string>
 	<string name="AppGroupDel">"Remove Catalog"</string>
     <string name="AppGroupDelLong">"Really Remove\nCurrent Catalog?"</string>
