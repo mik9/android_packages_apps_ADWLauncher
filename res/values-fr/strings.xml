@@ -122,6 +122,9 @@
     <string name="pref_title_hide_statusbar">Cacher la barre de statut</string>
     <string name="pref_summary_hide_statusbar">Cache la barre haute de statut</string>
 
+    <string name="pref_title_looping">Défilement en boucle</string>
+    <string name="pref_summary_looping">Autoriser le défilement entre le premier et le dernier bureau</string>
+
     <string name="pref_title_default_screen">Bureau par défaut</string>
 
 	<string name="pref_title_desktop_scrolling_speed">Vitesse de défilement des bureaux</string>
@@ -176,6 +179,9 @@
     
     <string name="pref_title_swipeup_actions">Glissé vers le haut</string>
     <string name="pref_summary_swipeup_actions">Actions en cas de geste glissé vers le haut</string>
+
+    <string name="pref_title_doubletap_actions">Double tape</string>
+    <string name="pref_summary_doubletap_actions">Actions en cas de double tape</string>
 
     <string name="pref_title_desktop_dots">Indicateurs de bureau</string>
     <string name="pref_summary_desktop_dots">Afficher/cacher les points indicateurs de bureau</string>
